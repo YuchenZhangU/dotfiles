@@ -1,0 +1,12 @@
+[user]
+	name = Yuchen Zhang
+	email = yuz899@utulsa.edu
+
+[core]
+	autocrlf = true
+[alias]
+	lg = log --all --decorate --oneline --graph
+[credential]
+	helper = wincred
+[format]
+	pretty = format:%C(auto)%h%d  %Cblue%ad%Creset %ae %Cgreen%s%Creset
